@@ -6,3 +6,9 @@
 
 3. Install Tailwind CSS with Next.js | Setting up Tailwind CSS in a Next.js project:
     https://tailwindcss.com/docs/guides/nextjs
+
+4. Un-configured Image error: 
+    https://nextjs.org/docs/messages/next-image-unconfigured-host
+
+5. Fake Store API: 
+    https://fakestoreapi.com/
