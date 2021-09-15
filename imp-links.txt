@@ -1,0 +1,5 @@
+1. Next.js:
+    https://nextjs.org/learn/basics/create-nextjs-app/setup
+
+2. Tailwind CSS:
+    https://tailwindcss.com/
