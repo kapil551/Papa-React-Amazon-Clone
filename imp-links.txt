@@ -3,3 +3,6 @@
 
 2. Tailwind CSS:
     https://tailwindcss.com/
+
+3. Install Tailwind CSS with Next.js | Setting up Tailwind CSS in a Next.js project:
+    https://tailwindcss.com/docs/guides/nextjs
