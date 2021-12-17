@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* apply utitlity classes at the component layer */
+@layer components {
+
+    /* custom utility class named "link" */
+    .link {
+        @apply cursor-pointer hover:underline;
+    }
+}

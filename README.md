@@ -34,3 +34,13 @@
     5. Fake Store API: 
         
         - https://fakestoreapi.com/
+    
+    6. Adding icons using heroicons:
+
+    7. whitespace-nowrap in tailwindcss:
+
+        - https://tailwindcss.com/docs/whitespace
+
+    8. animate-pulse in tailwindcss:
+
+        - https://tailwindcss.com/docs/animation
