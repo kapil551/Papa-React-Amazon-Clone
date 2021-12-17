@@ -6,6 +6,12 @@ function Banner() {
     return (
         <div className="relative">
 
+            {/* gradient container */}
+            {/* https://tailwindcss.com/docs/gradient-color-stops */}
+            <div className="border-2 border-black bg-gradient-to-t from-gray-100 to-transparent absolute w-full h-32 bottom-0 z-50">
+                
+            </div>
+
             {/* https://www.npmjs.com/package/react-responsive-carousel */}
             <Carousel
                 autoPlay

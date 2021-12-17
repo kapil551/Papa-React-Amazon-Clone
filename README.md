@@ -50,3 +50,7 @@
         - https://www.npmjs.com/package/react-responsive-carousel
 
         - http://react-responsive-carousel.js.org/
+    
+    10. creating gradients in tailwindcss:
+
+        - https://tailwindcss.com/docs/gradient-color-stops
