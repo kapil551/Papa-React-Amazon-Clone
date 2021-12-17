@@ -44,3 +44,9 @@
     8. animate-pulse in tailwindcss:
 
         - https://tailwindcss.com/docs/animation
+    
+    9. react-responsive-carousel:
+
+        - https://www.npmjs.com/package/react-responsive-carousel
+
+        - http://react-responsive-carousel.js.org/
