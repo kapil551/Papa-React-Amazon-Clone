@@ -54,3 +54,19 @@
     10. creating gradients in tailwindcss:
 
         - https://tailwindcss.com/docs/gradient-color-stops
+
+    11. server side rendering in next.js:
+
+        - https://nextjs.org/docs/basic-features/data-fetching
+
+        - https://nextjs.org/docs/basic-features/data-fetching#getserversideprops-server-side-rendering
+    
+    12. Generating random number in javaScript:
+
+        - https://www.w3schools.com/jsref/jsref_random.asp
+
+        - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+    
+    13. How to format currency in react.js/next.js application:
+
+        - https://www.npmjs.com/package/react-currency-formatter
