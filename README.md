@@ -70,3 +70,7 @@
     13. How to format currency in react.js/next.js application:
 
         - https://www.npmjs.com/package/react-currency-formatter
+    
+    14. creating grid using tailwindcss:
+
+        - https://tailwindcss.com/

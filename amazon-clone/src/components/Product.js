@@ -24,9 +24,9 @@ function Product({ id, title, price, description, category, image }) {
     
     return (
         
-        <div className=" border-2 border-yellow-600">
+        <div className="border-2 border-yellow-600 flex flex-col m-5 bg-white p-10 z-30 relative">
             
-            <p> {category} </p>
+            <p className="absolute top-2 right-2 text-xs italic text-gray-400"> {category} </p>
 
             <Image 
                 src={image}
@@ -45,15 +45,15 @@ function Product({ id, title, price, description, category, image }) {
 
                         return (
 
-                            <StarIcon className="h-5"/>
+                            <StarIcon className="h-5 text-yellow-500"/>
                         )
                     })
                 }
             </div>
 
-            <p> {description} </p>
+            <p className="text-xs my-2 line-clamp-2"> {description} </p>
 
-            <div>
+            <div className="mb-5">
                 <Currency
                     quantity={price}
                     symbol="₹"
@@ -61,13 +61,14 @@ function Product({ id, title, price, description, category, image }) {
             </div>
 
             {
-                hasPrime && <div>
-                    <img src="https://links.papareact.com/fdw" alt="" />
-                    <p>Free Next-day Delivery</p>
+                hasPrime && <div className="flex items-center space-x-2 -mt-5">
+                    <img src="https://links.papareact.com/fdw" alt="" className="w-12"/>
+                    <p className="text-xs text-gray-500">Free Next-day Delivery</p>
                 </div>
             }
 
-            <button> Add to Cart </button>
+            {/* custom utility class called "customButton" */}
+            <button className="mt-auto customButton"> Add to Cart </button>
 
         </div>
     )

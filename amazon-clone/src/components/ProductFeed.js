@@ -3,7 +3,9 @@ import Product from "./Product";
 function ProductFeed({ fetchedProducts }) {
     return (
 
-        <div>
+        // creating a grid using tailwindcss
+        <div className="border-2 border-green-500 grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4
+                        md:-mt-52 mx-auto">
             {
                     // access information using destructuring
                 fetchedProducts.map(({ id, title, price, description, category, image }) => {
